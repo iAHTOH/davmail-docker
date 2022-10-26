@@ -1,6 +1,7 @@
 [DavMail][link_davmail_home] POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 
 # What is it?
+Это форк под своти нужды. Немного не устраевает то  что сделано по умолчанию.
 
 This dockerised version makes building, installing, running and upgrading DavMail extremely easy.
 The information, code and support: http://davmail.sourceforge.net/ .
