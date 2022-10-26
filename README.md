@@ -6,6 +6,21 @@
 This dockerised version makes building, installing, running and upgrading DavMail extremely easy.
 The information, code and support: http://davmail.sourceforge.net/ .
 
+# Installation
+
+Pull the latest version of the image from the docker.
+
+```
+docker pull iahtoh/davmail
+```
+
+Alternately you can build the image yourself.
+
+```
+docker build -t iahtoh/sopds https://github.com/iAHTOH/docker-davmail.git
+```
+
+
 # How to run?
 
 ## Simple docker-compose
