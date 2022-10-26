@@ -41,7 +41,7 @@ docker build -t iahtoh/sopds https://github.com/iAHTOH/docker-davmail.git
    -e DAVMAIL_SERVER=true
    -p 1025:1025\
    -p 1110:1110\
-   kran0/davmail-docker:latest
+   iAHTOH/docker-davmailr:latest
 ```
 
 Example run command publishes 1025 (SMTP) and 1110 (POP), and uses only one environment varialbe.
@@ -57,7 +57,7 @@ and the official DavMail configuration [example and references](http://davmail.s
    -v $PWD/conf/davmail.properties.example:/davmail/davmail.properties\
    -p 1025:1025\
    -p 1110:1110\
-   kran0/davmail-docker:latest /davmail/davmail.properties
+   iAHTOH/docker-davmailr:latest /davmail/davmail.properties
 ```
 
 ## Import to Kubernetes
